@@ -217,3 +217,33 @@ li > a{
    
     text-align: center;
 }
+
+
+@media (max-width: 780px) {
+
+    
+    .cover h1{
+        font-size: 30px;
+    }
+    .icon{
+        display: block;
+    }
+    .navbar{
+       display: none;
+    }
+    
+   .social{
+    padding:0px;
+   }
+   .Experiences{
+    flex-direction: column;
+    font-size: 12px;
+   }
+.col1{
+    display: absolute;
+    width: 100%;
+    border: 0px;
+    padding: 0%;
+}
+   
+  }
